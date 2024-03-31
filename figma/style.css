@@ -98,7 +98,7 @@
     font-size: 16px;
   }
   .h1-b {
-    font-weight: 700;
+    font-weight: 500;
     color: #000;
   }
   .icon {
@@ -123,6 +123,106 @@
     height: 70px;
     background-color: #c1dee8;
   }
+
+  #new{
+    padding-left: 15%;
+    }
+    .hd{
+    font-weight:500;
+    color: #000;
+  }
+
+  /* boutique section starts */
+    .sec-d{
+      text-align: center;
+    } 
+    .large{
+      font-weight: 600;
+      justify-content: center;
+      padding-left: 10%;
+      padding-right: 20%;
+    }
+    .fluid{
+      text-align: left;
+      font-weight: 550;
+      padding-right: auto;
+      padding-left: 10%;
+      padding-top: 20px;
+    }
+    .card-text{
+      text-align: left;
+      padding-right: auto;
+      padding-left: 10%;
+    }
+    .btq{
+       height: auto;
+      justify-content: right;
+      padding-top: 20px;
+    }
+    #state{
+      justify-content: center;
+      padding-left: 10%;
+      padding-top: 15px;
+    }
+  .btns{
+    gap: 5;
+    border-radius: 40%;
+    align-items: center;
+    margin-top: 30px;
+    
+  }
+  .row{
+    padding-left: 20%;
+    margin-top: 35px;
+  }
+  /* boutique section ends */
+
+  @media screen and (min-width:768px) {
+    .large {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .fluid {
+        font-size: 32px;
+       
+    }
+    #container{
+      justify-content: center;
+    }
+}
+
+.width {
+    width: 50%;
+}
+
+.btn1{
+    padding: 10px 25px 10px 25px;
+    gap: 10px;
+    border-radius: 40px;
+    background: #1F1F1F;
+    color: #FFFFFF;
+
+}
+
+.btn2{
+    padding: 10px 25px 10px 25px;
+    gap: 10px;
+    border-radius: 40px;
+    border: 1px solid #BEBEBE;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.plus {
+
+    font-family: "Poppins";
+    font-size: 37px;
+    font-weight: 600;
+    line-height: 80.4px;
+
+}
+
   @media screen and (min-width: 200px) and (max-width: 480px) {
     .hidden {
       overflow: hidden;
@@ -175,8 +275,9 @@
     .icon{
       width: 50px;
       height: 50px;
-    }
+    
   }
+}
   @media screen and (min-width: 769px) and (max-width: 1279px) {
     .hidden {
       overflow: hidden;
@@ -185,4 +286,35 @@
     .t-c {
       display: flex;
     }
+    .plus{
+      gap: 4;
+      justify-content: center;
+    }
+    .txt{
+      gap: 4;
+      justify-self: center;
+    }
   }
+/* boutique */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .sec-d{
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .btq{
+    justify-content: left;
+
+  }
+  .col{
+    text-align: center;
+  }
+  .plus{
+    gap: 4;
+    justify-content: center;
+  }
+  .txt{
+    gap: 5;
+    justify-content: center;
+  }
+}
